@@ -1,0 +1,122 @@
+/***********************************************************************************************************************************************************************************/
+/*                                                                                 ENTETE                                                                                          */
+/***********************************************************************************************************************************************************************************/
+#entete {
+  background-color: cornflowerblue;
+}
+#logo {
+padding: 5px;
+  border-radius: 25px;
+}
+
+/***********************************************************************************************************************************************************************************/
+/*                                                                                MENU PRINCIPAL                                                                                   */
+/***********************************************************************************************************************************************************************************/
+
+
+nav ul {
+  margin-left: 250px;
+    position: fixed;
+    top: 0;
+    padding-left: AUTO;
+    /*padding: 0px;  
+    margin: 0px; */
+    list-style-type: none;
+    display: flex ;
+    flex-direction: row;
+}
+ 
+ nav li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 120px;
+    height: 40px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    line-height: 40px;
+ }
+ 
+ nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+ }
+ 
+ nav li :hover{
+    background-color: #3388bb;
+ }
+
+ /***********************************************************************************************************************************************************************************/
+/*                                                                                CORPS  DE PAGE                                                                                    */
+/********************************************************************************************************************************************************************************** */
+h1 {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+}
+
+.Photos{
+    padding-left: 200px;
+}
+
+ #Contenu {
+    background: url(/Images/BackGround.jpg) center center / cover no-repeat fixed;
+}
+
+main {
+    background-color: rgba(124, 180, 233, 0.678);
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+/***********************************************************************************************************************************************************************************/
+/*                                                                                 PIED DE PAGE                                                                                    */
+/***********************************************************************************************************************************************************************************/
+#Pied {
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom:0 ;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Gardiens {
+  background-color: rgba(80, 98, 255, 0.342);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#Defenseurs{
+  background-color: rgba(255, 0, 179, 0.322);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#Milieux {
+  background-color: rgba(99, 112, 228, 0.322);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#Attaquants {
+    background-color: rgba(23, 30, 94, 0.322);
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tableau, th, td {
+  border: 3px solid red; border-collapse:collapse ;
+}
+thead {
+  height: 40px;font-size: 20px;width: 100px;
+}

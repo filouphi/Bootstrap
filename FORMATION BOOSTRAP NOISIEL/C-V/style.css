@@ -1,0 +1,17 @@
+#info {
+  line-height: 16px;
+  padding-top: 75px;
+}
+p a {
+    color: rgb(77, 36, 190);
+}
+dl dt a {
+    color: rgb(90, 36, 190) ;
+}
+dl dd a {
+    color: rgb(190, 36, 182) ;
+}
+nav {
+    position: sticky ;top: 0;
+}
+#gif { float: right;}

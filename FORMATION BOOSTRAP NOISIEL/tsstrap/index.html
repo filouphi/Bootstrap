@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Bootstrap</title>
+    <!-- Fonts Google Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- Mon style -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- nav -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Emploi Facile</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-1">
+                    <a href="#top" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a href="#info" class="nav-link">Concept</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a href="#clients" class="nav-link">Clients</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a href="#newsletter" class="nav-link">Newsletter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!--     header accueil grande image -->
+
+<header class= "text-center" id="top">
+    <div class="text-intro">
+
+        <div class="preText text-white font-italic" >
+           decrochez le job de vos reves 
+        </div>
+        <h1>
+            Sur emploi facile
+        </h1>
+        <a href="#" class="btn btn-primary">savoir plus</a>
+    </div>
+</header>
+
+<!-- section info -->
+<section id="info" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div id="txtLaptop" class=" col-md-6 align-self-center">
+                <h3>Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate totam dolorum explicabo. Animi adipisci consequuntur obcaecati asperiores inventore quod ex dolor rem!</p>
+                <a href="#" class="btn btn-outline-danger">decouvrez</a>
+            </div>
+            <div class="col-md-6">
+                <img src="img/laptop.png" alt="image laptop" class="img-fluid">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- trois icones -->
+<section id="home-icones">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-4 text-center">
+                <i class="fas fa-cog fa-3x mb-2"></i>
+                <h3>Outils performants</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos consequuntur odio praesentium ratione vitae necessitatibus sapiente aliquam voluptate, nihil fugit, magnam perspiciatis accusamus error voluptatibus.</p>
+            </div>
+            <div class="col-4 text-center">
+                <i class="fas fa-cloud fa-3x mb-2"></i>
+                <h3>Cloud</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos consequuntur odio praesentium ratione vitae necessitatibus sapiente aliquam voluptate, nihil fugit, magnam perspiciatis accusamus error voluptatibus.</p>
+            </div>
+            <div class="col-4 text-center">
+                <i class="fas fa-cart-plus fa-3x mb-2"></i>
+                <h3>Panier</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos consequuntur odio praesentium ratione vitae necessitatibus sapiente aliquam voluptate, nihil fugit, magnam perspiciatis accusamus error voluptatibus.</p>
+            </div>
+        </div>
+    </div>
+
+            
+
+</section>
+<!-- actions -->
+<section id="start" class="py-5">
+    <div class="container">
+        <h2 class="pb-3"> Etes vous pret a commencer?</h2>
+        <p class="d-none d-md-block"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam laudantium. Eos repellat unde quia laborum.</p>
+        <a href="#" class="btn btn-primary">Demarrez maintenant</a>
+    </div>
+</section>
+
+<!-- les clients -->
+
+<section id="clients" class="my-5 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="info-header mb-5">
+                    <h2 class="pb-3">Nos clients.
+                        <p class="lead pb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit excepturi possimus consectetur, culpa praesentium ipsum?</p>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body"> 
+                        <img src="img/visage1.jpg" alt="visage un" class="img-fluid rounded-circle w-5 mb-3">
+                        <h3>Tom</h3>
+                        <h5 class="text-muted">developpeur</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, debitis hic!</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="p4">
+                                <a href="http://facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a>
+                               
+                            </div>
+                            <div class="p4">
+                                <a href="http://twitter.com" target="_blank" <i class="fab fa-twitter"></i></a>
+                               
+                            </div>
+                            <div class="p4">
+                                <a href="http://instagram.com" target="_blank" <i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body"> 
+                        <img src="img/visage2.png" alt="visage deux" class="img-fluid rounded-circle w-5 mb-3">
+                        <h3>Riton</h3>
+                        <h5 class="text-muted">Commercial</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, debitis hic!</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="p4">
+                                <a href="http://facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a>
+                               
+                            </div>
+                            <div class="p4">
+                                <a href="http://twitter.com" target="_blank" <i class="fab fa-twitter"></i></a>
+                               
+                            </div>
+                            <div class="p4">
+                                <a href="http://instagram.com" target="_blank" <i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body"> 
+                        <img src="img/visage3.png" alt="visage trois" class="img-fluid rounded-circle w-5 mb-3">
+                        <h3>Antoine</h3>
+                        <h5 class="text-muted">Directeur </h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, debitis hic!</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="p4">
+                                <a href="http://facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a>
+                               
+                            </div>
+                            <div class="p4">
+                                <a href="http://twitter.com" target="_blank" <i class="fab fa-twitter"></i></a>
+                               
+                            </div>
+                            <div class="p4">
+                                <a href="http://instagram.com" target="_blank" <i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body"> 
+                        <img src="img/visage4.png" alt="visage quatre" class="img-fluid rounded-circle w-5 mb-3">
+                        <h3>Julien</h3>
+                        <h5 class="text-muted">Manutentionnaire</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, debitis hic!</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="p4">
+                                <a href="http://facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a>
+                               
+                            </div>
+                            <div class="p4">
+                                <a href="http://twitter.com" target="_blank" <i class="fab fa-twitter"></i></a>
+                               
+                            </div>
+                            <div class="p4">
+                                <a href="http://instagram.com" target="_blank" <i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Abonnez-vous a la newsletter</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius aliquid, quidem similique magnam laudantium recusandae?</p>
+                <form  class="form-inline justify-content-center">
+                    <input type="text" class="form-control mb-2 mr-2" placeholder="Nom" required>
+                    <input type="email" class="form-control mb-2 mr-2" placeholder="email" required>
+                    <button class="btn btn-primary mb-2">Soumettre</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- footer -->
+<footer id="main-footer" class="text-center p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p> Copyright &#x00A9;
+                    <span id="year"></span>Emploie facile
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+                               
+
+
+
+
+            
+
+            
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+        crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+        crossorigin="anonymous">
+</script>
+<script>
+    /* generer la date complete */
+    $('#year').text(new Date().getFullYear());
+    /* scrollSpy */
+    $('body').scrollspy({target:"#main-nav"});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

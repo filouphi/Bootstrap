@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header {
+    border-bottom: 3px solid black;
+    background: #cac7c7;
+    
+}
+#infos {
+    line-height: 18px;
+    font-size: 15px;
+    font-family: 'Domine', serif;
+    color: rgb(44, 43, 44);
+}
+
+#titre {
+    font-family: 'Domine', serif;
+    font-family: 'Lobster', cursive;
+    color: rgb(44, 43, 44);
+    
+
+}
+
+#gif {
+    float: right;
+}
+
+#main {
+    padding-top: 35px;
+    background:  hsla(0, 3%, 79%, 0.959);
+}
+
+h2 {
+    text-transform: uppercase;  
+<<<<<<< HEAD
+    font-family: 'Baloo Bhaina 2', cursive;
+=======
+    font-family: 'Grenze', serif;
+>>>>>>> 7372fd55a5921111d4f17d93df15f826c4b94906
+   
+}
+
+#hobbies {
+ padding-top: 50px;
+ padding-bottom: 50px;
+<<<<<<< HEAD
+ background-color: #cac7c7;
+}
+
+h5 {
+   text-decoration: underline; 
+=======
+background-color:hhsla(0, 3%, 79%, 0.959);
+}
+h5 {
+    text-decoration: underline;
+>>>>>>> 7372fd55a5921111d4f17d93df15f826c4b94906
+}
+    
+body {
+    background: url(images/cropped-developpeur-web.jpg)  center center / cover no-repeat fixed;
+}
+   
+    
+

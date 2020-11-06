@@ -1,0 +1,340 @@
+<!DOCTYPE html>  <!-- NE PAS OUBLIER DE PRENDRE LES LINK BOOTSTRAP JS JQUERY ET FONTAWESOM=POUR LES ICONES -->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet bootstrap</title>
+
+            <!-------------------------------- LINK BOOTSTRAP CDN ----------------------->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous">
+
+                <!----------------------------- LINK FONTAWESOM ----------------------->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" 
+            crossorigin="anonymous">
+
+                <!----------------------------- LINK POUR LES FONTS----------------------->
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+    
+
+    <!---------------------------------------------- NAV -------------------------------------------->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">EmploiFacile</a> <!-- POUR REVENIR AU MENU   -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div  id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-1">
+                    <a href="#top" class="nav-link">Acceuil</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a href="#info" class="nav-link">Concept</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a href="#clients" class="nav-link">Nos&nbsp;Clients</a> <!--  &nbsp;=METTRE UN ESPACE-->
+                </li>
+                <li class="nav-item mr-1">
+                    <a href="#newsletter" class="nav-link">Newsletter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+     <!------------------------------------------------Header --------------------------------------------------->
+
+<header class="text-center " id="top">
+    <div class="text-intro">
+        <div class="preTxt text-white font-italic">
+            Décrochez le job de vos reves
+            </div>
+                <h1>
+                Sur Emploi Facile
+                </h1>
+                    <a href="#" class="btn btn-primary">Savoir plus</a>   <!---btn=bouton------->           
+            </div>
+            
+</header> 
+
+
+<!-------------------------------------------- SECTION INFO----------------------------------------------------->
+
+<section id="info" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div id="txtLaptop"  class="col-md-6 align-self-center">
+                <h3>Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ex, distinctio minima repudiandae fugit temporibus quas cupiditate sint repellendus, voluptatem voluptatum nostrum ipsum!</p>
+            <a href="#" class="btn btn-outline-danger">Découvrez</a>            
+            </div>
+            <div class="col-md-6">
+                <img src="img/laptop.png" alt="ordinateur" class="img-fluid">  <!-- fluid=responsive -->
+            </div>
+        </div>
+    </div>
+</section>
+
+     <!-------------------------------------------- TROIS ICONES-------------------------------------------------->
+
+
+<section id="home-icones">
+    <div class="container">
+        <div class="row">            
+            <div class="col-md-4 text-center">
+                <i class="fas fa-cog fa-3x mb-2"></i>
+                <h3> Outils Performants</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Laboriosam molestias optio magnam incidunt veniam, pariatur itaque! Odio consequuntur facilis, 
+                nobis ea officiis maiores nulla rerum.</p>
+            
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-cloud fa-3x mb-2"></i>
+                <h3> Outils Performants</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Laboriosam molestias optio magnam incidunt veniam, pariatur itaque! Odio consequuntur facilis, 
+                nobis ea officiis maiores nulla rerum.</p>
+            
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-cart-plus fa-3x mb-2"></i>
+                <h3> Outils Performants</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Laboriosam molestias optio magnam incidunt veniam, pariatur itaque! Odio consequuntur facilis, 
+                nobis ea officiis maiores nulla rerum.</p>
+            
+            </div>
+        </div>
+
+    </div>
+</section>
+
+            <!-- ---------------------------------ACTION-------------------------------------------------->
+
+<section id="start" class="py-5">
+    <div class="conatainer">
+        <h2 class="pb-3">Etes vous prêt à comencer ?</h2>
+       <p class="d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+           Voluptate vero ea tenetur autem veniam blanditiis nostrum.</p>
+           <a href="#" class="btn btn-primary">Démarrer maintenant</a>
+
+    </div>
+</section>
+
+<!--------------------------------------------------- CLIENTS---------------------------------------------- -->
+
+<section id="clients" class="my-5 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="info-header mb-5">
+                    <h2 class="pb-3">Nos Clients</h2>
+                    <p class="lead pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet quis voluptatum ipsam aliquid inventore nulla.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+
+      <!----------------------------------------- VISAGE 1---------------------------------------- -->
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body"> <!------------- POUR FAIRE CADRE CARTE--------------- -->
+                        <img src="img/visage3.png" alt="Visage" class="img-fluid rounded-circle w-5 mb-3">
+                        <h3>Tom</h3>
+                        <h5 class="text-muted">Développeur</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Libero, commodi fugit.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <div class="p-4">                      <!------------- POUR GENERER UN LINK--------------- -->
+                                <a href="http://facebook.com">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">                      <!------------- POUR GENERER UN LINK--------------- -->
+                                <a href="http://twitter.com">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">                      
+                                <a href="http://instagram.com">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------- VISAGE 2---------------------------------------- -->
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body"> <!------------- POUR FAIRE CADRE CARTE--------------- -->
+                        <img src="img/visage2.png" alt="Visage" class="img-fluid rounded-circle w-5 mb-3">
+                        <h3>Tom</h3>
+                        <h5 class="text-muted">Développeur</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Libero, commodi fugit.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <div class="p-4">                      <!------------- POUR GENERER UN LINK--------------- -->
+                                <a href="http://facebook.com">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">                      <!------------- POUR GENERER UN LINK--------------- -->
+                                <a href="http://twitter.com">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">                      
+                                <a href="http://instagram.com">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------------------- VISAGE 3---------------------------------------- -->
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body"> <!------------- POUR FAIRE CADRE CARTE--------------- -->
+                        <img src="img/visage3.png" alt="Visage" class="img-fluid rounded-circle w-5 mb-3">
+                        <h3>Tom</h3>
+                        <h5 class="text-muted">Développeur</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Libero, commodi fugit.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <div class="p-4">                      <!------------- POUR GENERER UN LINK--------------- -->
+                                <a href="http://facebook.com">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">                      <!------------- POUR GENERER UN LINK--------------- -->
+                                <a href="http://twitter.com">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">                      
+                                <a href="http://instagram.com">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------------------- VISAGE 4---------------------------------------- -->
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body"> <!------------- POUR FAIRE CADRE CARTE--------------- -->
+                        <img src="img/visage4.png" alt="Visage" class="img-fluid rounded-circle w-5 mb-3">
+                        <h3>Tom</h3>
+                        <h5 class="text-muted">Développeur</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Libero, commodi fugit.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <div class="p-4">                      <!------------- POUR GENERER UN LINK--------------- -->
+                                <a href="http://facebook.com">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">                      <!------------- POUR GENERER UN LINK--------------- -->
+                                <a href="http://twitter.com">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">                      
+                                <a href="http://instagram.com">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------------------------------------------------- NEWSLETTER--------------------------------------------------------->
+
+<section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Abonnez-vous à la newsletter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aut id voluptas minima perspiciatis et?
+                </p>
+                <form class="form-inline justify-content-center">
+                    <input type="text" class="form-control mb-2 mr-2" placeholder="Nom">
+                    <input type="text" class="form-control mb-2 mr-2" placeholder="Email">
+                    <button class="btn btn-primary mb-2">Soumettre</button>                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-------------------------------------- FOOTER------------------------------------- -->
+
+        <footer id="main-footer" class="text-center p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>Copyright &copy;        <!------------&copy=POUR LOGO COPYRIGHT--------------->
+                            <span id="year"></span> EmploiFacile
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-------------------------------- LES SCRIPTS POUR BOOTSTRAP-------------- ------------------------>
+
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+        crossorigin="anonymous"></script>
+
+    <script>
+        // GENERER LA DATE
+      $('#year').text(new Date().getFullYear());
+
+      // ScrollSpy
+
+      $('body').scrollspy({target:'#main-nav'});
+    </script>    
+    </body>
+</html>

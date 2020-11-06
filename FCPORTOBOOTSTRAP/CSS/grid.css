@@ -1,0 +1,94 @@
+body{
+    
+    background: url(/Images/BackGround.jpg) center center / cover no-repeat fixed;
+}
+
+main {
+    background-color: rgba(124, 180, 233, 0.678);
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+#Entete {
+    height: 80px;
+    width: 100%;
+    background-color: slateblue;
+    position: fixed;
+    top: 0;
+}
+
+#Logo {
+    width: 60px;
+}
+nav ul {
+    margin-left: 250px;
+      position: fixed;
+      top: 0;
+      padding-left: AUTO;
+      /*padding: 0px;  
+      margin: 0px; */
+      list-style-type: none;
+      display: flex ;
+      flex-direction: row;
+  }
+   
+   nav li {
+      display: inline-block;
+      margin: 0px;
+      padding: 0px;
+      width: 120px;
+      height: 40px;
+      border-right: 1px solid #cccccc;
+      text-align: center;
+      line-height: 40px;
+   }
+   
+   nav li a {
+      display: block;
+      text-decoration: none;
+      color: #ffffff;
+   }
+   
+   nav li :hover{
+      background-color: #3388bb;
+   }
+
+
+main{
+    margin-top:100px ;
+}
+
+#gardiens{
+    background: rgba(0, 0, 255, 0.377);
+   padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+}
+#defenseurs{
+    background: rgba(65, 65, 243, 0.377);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+}
+#milieux{
+    background: rgba(103, 103, 235, 0.377);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+}
+#attac{
+    background: rgba(100, 100, 170, 0.377);
+    margin-bottom: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+}
+#Pied {
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom:0 ;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;

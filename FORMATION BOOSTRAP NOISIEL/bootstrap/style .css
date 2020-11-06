@@ -1,0 +1,12 @@
+*{
+    font-family: Kurale serif cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background:#f1f1f1;
+}
+.navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+}
